@@ -1,10 +1,10 @@
 class HeaterRunner{
   public static void main(String ws[]){
   System.out.println("Main started");
-  Heater.turnOn();
-  Heater.turnOff();
-  Heater.turnOn();
-  Heater.turnOff();
+  boolean connect=Heater.onOrOff();
+  System.out.println("Is connected :"+ connect);
+  connect=Heater.onOrOff();
+  System.out.println("Is connected :"+ connect);
   System.out.println("Main Ended");
   }
 

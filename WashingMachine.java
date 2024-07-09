@@ -1,25 +1,18 @@
 class WashingMachine{
-   static boolean isSwitchedOn=false;
+   static boolean isConnected=false;
    
-   public static void turnOn(){
+   public static boolean onOrOff(){
    
-   System.out.println("Start of turnOn");
-   if(isSwitchedOn==false){
-   isSwitchedOn=true;
+   System.out.println("Start of OnorOff");
+   if(isConnected==false){
+   isConnected=true;
    System.out.println("WashingMachine is turned On");
    }
-   System.out.println("End of turnOn");
-   }
-   
-   
-   public static void turnOff(){
-   
-   System.out.println("Start of turnOff");
-   if(isSwitchedOn==true){
-   isSwitchedOn=false;
+   else if(isConnected==true){
+   isConnected=false;
    System.out.println("WashingMachine is turned Off");
    }
-   System.out.println("End of turnOff");
+   System.out.println("End of OnOrOff");
+   return isConnected;
    }
-
 }
