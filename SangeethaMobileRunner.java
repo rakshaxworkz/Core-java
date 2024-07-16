@@ -4,8 +4,8 @@ class SangeethaMobileRunner{
 	
   System.out.println("Main started");
   
-  String name = "Samsung S22 FE";
-  double price = SangeethaMobile.getMobilePricebyMobileBrand(name);
+  String name = "Redmi 5";
+  double price = SangeethaMobile.getMobilePricebyMobileBrand(name,3);
   System.out.println("The price for " + name + " is " + price);
   
   System.out.println("Main Ended");

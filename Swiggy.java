@@ -1,109 +1,69 @@
 class Swiggy{
 	
- public static double getFoodPricebyName(String foodName){
+ public static double getFoodPricebyName(String foodName , int qty){
 	 
 	 double foodPrice = 0.0;
 	 System.out.println("getFoodPricebyName started");
 	 
-   if(foodName == "Gobi"){
-    foodPrice = 180.80;
-	return foodPrice;
-   }
+   if(foodName == "Gobi")
+	return foodPrice = 180.80 * qty;
   
-  else if(foodName == "Masala Dosa"){
-    foodPrice = 60.00;
-	return foodPrice;
-   }
+  else if(foodName == "Masala Dosa")
+	return foodPrice = 60.00 * qty;
   
-  else if(foodName == "Paneer Butter Masala"){
-	  foodPrice = 200.00;
-	  return foodPrice;
-   }
+  else if(foodName == "Paneer Butter Masala")
+	  return foodPrice = 200.00 * qty;
   
-  else if(foodName == "Vegetable Biryani"){
-	  foodPrice = 180.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Biryani")
+	  return foodPrice = 180.00 * qty;
   
-  else if(foodName == "Chole Bhature"){
-	  foodPrice = 120.98;
-	  return foodPrice;
-  }
+  else if(foodName == "Chole Bhature")
+	  return foodPrice = 120.98 * qty;
   
-  else if(foodName == "Palak Paneer"){
-	  foodPrice = 180.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Palak Paneer")
+	  return foodPrice = 180.00 * qty;
   
-  else if(foodName == "Aloo Paratha"){
-	  foodPrice = 100.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Aloo Paratha")
+	  return foodPrice = 100.00 * qty;
   
-  else if(foodName == "Veg Pulao"){
-	  foodPrice = 150.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Veg Pulao")
+	  return foodPrice = 150.00 * qty;
   
-  else if(foodName == "Vegetable Manchurian"){
-	  foodPrice = 160.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Manchurian")
+	  return foodPrice = 160.00 * qty;
   
-  else if(foodName == "Pav Bhaji"){
-	  foodPrice = 100.98;
-	  return foodPrice;
-  }
+  else if(foodName == "Pav Bhaji")
+	  return foodPrice = 100.98 * qty;
   
-  else if(foodName == "Dal Makhani") {
-	  foodPrice = 180.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Dal Makhani") 
+	  return foodPrice = 180.45 * qty;
   
-  else if(foodName == "Rajma Chawal"){
-	  foodPrice = 150.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Rajma Chawal")
+	  return foodPrice = 150.00 * qty;
   
-  else if(foodName == "Vegetable Pakora"){
-	  foodPrice = 80.34;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Pakora")
+	  return foodPrice = 80.34 * qty;
   
-  else if(foodName == "Mix Veg Sabzi"){
-	  foodPrice = 150.00;
-	  return foodPrice;
-  }
+  else if(foodName == "Mix Veg Sabzi")
+	  return foodPrice = 150.00 * qty;
   
-  else if(foodName == "Jeera Rice"){
-	  foodPrice = 100.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Jeera Rice")
+	  return foodPrice = 100.45 * qty;
   
-  else if(foodName == "Vegetable Cutlet"){
-	  foodPrice = 30.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Cutlet")
+	  return foodPrice = 30.45 * qty;
   
-  else if(foodName == "Vegetable Hakka Noodles"){
-	  foodPrice = 140.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Hakka Noodles")
+	  return foodPrice = 140.45 * qty;
   
-  else if(foodName == "Veg Momos"){
-	  foodPrice = 120.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Veg Momos")
+	  return foodPrice = 120.45 * qty;
   
-  else if(foodName == "Vegetable Korma"){
-	  foodPrice = 180.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Vegetable Korma")
+	  return foodPrice = 180.45 * qty;
   
-  else if(foodName == "Samosa"){
-	  foodPrice = 20.45;
-	  return foodPrice;
-  }
+  else if(foodName == "Samosa")
+	  return foodPrice = 20.45 * qty;
   
   else{
   System.out.println(foodName + "Not found");

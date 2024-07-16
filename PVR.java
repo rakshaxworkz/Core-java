@@ -1,109 +1,69 @@
 class PVR{
 	
- public static double getMoviePricebyName(String movieName){
+ public static double getMoviePricebyName(String movieName , int quantity){
 	 
 	 double moviePrice = 0.0;
 	 System.out.println("getMoviePricebyName started");
 	 
-   if(movieName == "Dharmadha daiva"){
-    moviePrice = 280.80;
-	return moviePrice;
-   }
+   if(movieName == "Dharmadha daiva")
+	return moviePrice = 280.80 * quantity;
   
-  else if(movieName == "Love li"){
-    moviePrice = 430.00;
-	return moviePrice;
-   }
+  else if(movieName == "Love li")
+	return moviePrice = 430.00* quantity;
   
-  else if(movieName == "Koti"){
-	  moviePrice = 300.00;
-	  return moviePrice;
-   }
+  else if(movieName == "Koti")
+	  return moviePrice = 300.00* quantity;
   
-  else if(movieName == "Circus"){
-	  moviePrice = 200.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Circus")
+	  return moviePrice = 200.00* quantity;
   
-  else if(movieName == "Hostel Hudugru"){
-	  moviePrice = 400.98;
-	  return moviePrice;
-  }
+  else if(movieName == "Hostel Hudugru")
+	  return moviePrice = 400.98* quantity;
   
-  else if(movieName == "Saptha Sagaradhache ello"){
-	  moviePrice = 507.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Saptha Sagaradhache ello")
+	  return moviePrice = 507.00* quantity;
   
-  else if(movieName == "Saptha Sagaradhache ello 2"){
-	  moviePrice = 580.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Saptha Sagaradhache ello 2")
+	  return moviePrice = 580.00* quantity;
   
-  else if(movieName == "Kalki"){
-	  moviePrice = 300.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Kalki")
+	  return moviePrice = 300.00* quantity;
   
-  else if(movieName == "Bahubali 1"){
-	  moviePrice = 400.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Bahubali 1")
+	  return moviePrice = 400.00* quantity;
   
-  else if(movieName == "Kateera"){
-	  moviePrice = 309.98;
-	  return moviePrice;
-  }
+  else if(movieName == "Kateera")
+	  return moviePrice = 309.98* quantity;
   
-  else if(movieName == "KGF 1") {
-	  moviePrice = 300.45;
-	  return moviePrice;
-  }
+  else if(movieName == "KGF 1") 
+	  return moviePrice = 300.45* quantity;
   
-  else if(movieName == "KGF 2"){
-	  moviePrice = 350.00;
-	  return moviePrice;
-  }
+  else if(movieName == "KGF 2")
+	  return moviePrice = 350.00* quantity;
   
-  else if(movieName == "Kantara"){
-	  moviePrice = 430.34;
-	  return moviePrice;
-  }
+  else if(movieName == "Kantara")
+	  return moviePrice = 430.34* quantity;
   
-  else if(movieName == "Mr Madhimaye"){
-	  moviePrice = 400.00;
-	  return moviePrice;
-  }
+  else if(movieName == "Mr Madhimaye")
+	  return moviePrice = 400.00* quantity;
   
-  else if(movieName == "Harata"){
-	  moviePrice = 399.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Harata")
+	  return moviePrice = 399.45* quantity;
   
-  else if(movieName == "Adhipatra"){
-	  moviePrice = 300.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Adhipatra")
+	  return moviePrice = 300.45* quantity;
   
-  else if(movieName == "Kalpana 1"){
-	  moviePrice = 492.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Kalpana 1")
+	  return moviePrice = 492.45* quantity;
   
-  else if(movieName == "Kalpana 2"){
-	  moviePrice = 390.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Kalpana 2")
+	  return moviePrice = 390.45* quantity;
   
-  else if(movieName == "Kanchana"){
-	  moviePrice = 540.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Kanchana")
+	  return moviePrice = 540.45* quantity;
   
-  else if(movieName == "Kanchana 2"){
-	  moviePrice = 599.45;
-	  return moviePrice;
-  }
+  else if(movieName == "Kanchana 2")
+	  return moviePrice = 599.45* quantity;
   
   else{
   System.out.println(movieName + "Not found");
@@ -115,5 +75,3 @@ class PVR{
   }
   
 }
-
-// 7356068123

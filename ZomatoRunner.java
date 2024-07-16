@@ -5,7 +5,7 @@ class ZomatoRunner{
   System.out.println("Main started");
   
   String name = "Chicken Biryani";
-  double price = Zomato.getFoodPricebyName(name);
+  double price = Zomato.getFoodPricebyName(name,2);
   System.out.println("The price for " + name + " is " + price);
   
   System.out.println("Main Ended");
