@@ -1,6 +1,79 @@
 class Zomato{
 	
- public static double getFoodPricebyName(String foodName , int qty){
+ public static double getFoodPricebyName(String foodName){
+	 
+	 double foodPrice = 0.0;
+	 System.out.println("getFoodPricebyName started");
+	 
+   if(foodName == "Chicken Biryani")
+	return foodPrice = 250.80 ;
+  
+  else if(foodName == "Butter Chicken")
+	return foodPrice = 300.00 ;
+  
+  else if(foodName == "Fish Curry")
+	  return foodPrice = 200.00 ;
+  
+  else if(foodName == "Chicken Tikka")
+	  return foodPrice = 180.00 ;
+  
+  else if(foodName == "Mutton Rogan Josh")
+	  return foodPrice = 350.98 ;
+  
+  else if(foodName == "Prawn Masala")
+	  return foodPrice = 280.00 ;
+  
+  else if(foodName == "Egg Fried Rice")
+	  return foodPrice = 150.00 ;
+  
+  else if(foodName == "Chicken Shawarma")
+	  return foodPrice = 200.00 ;
+  
+  else if(foodName == "Fish Fry")
+	  return foodPrice = 220.00;
+  
+  else if(foodName == "Chicken Korma")
+	  return foodPrice = 280.98 ;
+  
+  else if(foodName == "Egg Curry") 
+	  return foodPrice = 120.45 ;
+  
+  else if(foodName == "Mutton Biryani")
+	  return foodPrice = 300.00 ;
+  
+  else if(foodName == "Chicken 65")
+	  return foodPrice = 140.34 ;
+  
+  else if(foodName == "Fish Tandoori")
+	  return foodPrice = 250.00 ;
+  
+  else if(foodName == "Keema Pav")
+	  return foodPrice = 180.45;
+  
+  else if(foodName == "Chicken Lollipop")
+	  return foodPrice = 160.45;
+  
+  else if(foodName == "Prawn Fried Rice")
+	  return foodPrice = 280.45 ;
+  
+  else if(foodName == "Mutton Seekh Kebab")
+	  return foodPrice = 300.45 ;
+  
+  else if(foodName == "Chicken Hakka Noodles")
+	  return foodPrice = 200.45 ;
+  
+  else if(foodName == "Egg Bhurji")
+	  return foodPrice = 140.45 ;
+  
+  else{
+  System.out.println(foodName + "Not found");
+  }
+  
+  System.out.println("getFoodPricebyName Ended");
+  return foodPrice;
+  
+  }
+  public static double getFoodPricebyName(String foodName , int qty){
 	 
 	 double foodPrice = 0.0;
 	 System.out.println("getFoodPricebyName started");

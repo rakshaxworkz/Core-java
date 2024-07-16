@@ -5,8 +5,10 @@ class FoodPandaRunner{
   System.out.println("Main started");
   
   String name = "Vegetable Pizza";
-  double price = FoodPanda.getFoodPricebyName(name, 10);
+  double price = FoodPanda.getFoodPricebyName(name);
+  double price1 = FoodPanda.getFoodPricebyName(name, 10);
   System.out.println("The price for " + name + " is " + price);
+  System.out.println("The price for " + name + " is " + price1);
   
   System.out.println("Main Ended");
   

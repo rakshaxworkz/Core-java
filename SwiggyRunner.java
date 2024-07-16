@@ -5,9 +5,10 @@ class SwiggyRunner{
   System.out.println("Main started");
   
   String name = "Gobi";
-  double price = Swiggy.getFoodPricebyName(name,5);
+  double price = Swiggy.getFoodPricebyName(name);
+  double price1 = Swiggy.getFoodPricebyName(name,5);
   System.out.println("The price for " + name + " is " + price);
-  
+  System.out.println("The price for " + name + " is " + price1);
   System.out.println("Main Ended");
   
   }
