@@ -1,4 +1,4 @@
-class Amazon{
+class MedicalStore{
 static String productNames[] = {null,null,null,null,null,null,null,null,null,null};
 static int start;
 public static boolean addProductName(String productName){
@@ -9,7 +9,7 @@ public static boolean addProductName(String productName){
   isProductNameAdded = true;
   }
   else
-  System.out.println("productName is Invalid");
+  System.out.println("Product Name is Invalid");
 
 }
 else{

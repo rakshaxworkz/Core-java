@@ -1,13 +1,46 @@
 class AmazonRunner{
-	
-	public static void main(String[]ecommerce){
-		
-		System.out.println("Main Started");
-		
-		boolean isAmazonCreated = Amazon.createAmazonAccount(null,"Shetty@gmail.com","raksha@123","raksha@123","14/01/2003","8197614012");
-		if(isAmazonCreated == true)
-	    Amazon.readAmazonAccount();
+ public static void main(String[] products){
+ 
+   boolean addedProduct = Amazon.addProductName("Clothes");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Eyeliner");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("EyeShadow");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Lipstick");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Pencil");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Mobile");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Laptop");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Charger");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Hair Accessories");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Sandles");
+   System.out.println("Added Product " + addedProduct );
+   
+   Amazon.addProductName("Makeup");
+   System.out.println("Added Product " + addedProduct );
+   
+   
+   
+   Amazon.showProductNames();
+ 
+ }
 
-		System.out.println("Main ended");
-	}
+
+
+
 }
