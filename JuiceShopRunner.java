@@ -23,6 +23,17 @@ class JuiceShopRunner{
    System.out.println("Added juice" + addedJuice );
    
    JuiceShop.showJuiceNames();
+   
+    boolean updateJuice = JuiceShop.updateJuiceName("Pomogranete" , "Apple");
+  System.out.println(updateJuice + "Juice Name is Updated");
+  
+  JuiceShop.showJuiceNames();
+  
+  
+  boolean deletedJuice = JuiceShop.deleteJuiceName("chikku");
+  System.out.println(deletedJuice + "Juice Name is Deleted");
+  
+  JuiceShop.showJuiceNames();
  
  }
 

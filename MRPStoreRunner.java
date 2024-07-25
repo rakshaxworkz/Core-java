@@ -1,47 +1,50 @@
 class MRPStoreRunner{
- public static void main(String[] items){
- 
-   boolean addedProduct = MRPStore.addAlcoholName("Whiskey");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Vodka");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Rum");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Gin");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Tequila");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Beer");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Wine");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Champagne");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Sake");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Brandy");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-   MRPStore.addAlcoholName("Absinthe");
-   System.out.println("Added Alcohol " + addedProduct );
-   
-  
-
-   
-   MRPStore.showAlcoholNames();
- 
- }
-
-
-
-
+	public static void main(String[] args){
+		System.out.println("Main Started");
+		boolean alcoholNamesAdded = MRPStore.addalcoholNames("Gin");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Vodka");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Whiskey");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Tequila");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Rum");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Brandy");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Absinthe");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Benedictine ");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Campari");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Jagermeister");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		alcoholNamesAdded = MRPStore.addalcoholNames("Licor 43 ");
+		System.out.println("medicine Names added " +alcoholNamesAdded);
+		
+		MRPStore.readalcoholNames();
+		
+		boolean alcoholNamesUpdate = MRPStore.updatealcoholNames("OldMonk" , "Jagermeister");
+		System.out.println("Alcohol Name is updated" + alcoholNamesUpdate);
+		
+		MRPStore.readalcoholNames();
+		
+		boolean alcoholNamesDelete = MRPStore.deletealcoholNames("Campari");
+		System.out.println("Alcohol Name is Deleted" +alcoholNamesDelete);
+		
+		MRPStore.readalcoholNames();
+		System.out.println("Main Ended");
+	}
 }
