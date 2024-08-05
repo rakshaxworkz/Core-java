@@ -12,4 +12,11 @@ class Country{
 		this.population = population;
 	}
 
+	public void displayInfo(){
+		System.out.println("Country's generated");
+		System.out.println("Country Id of India is " + this.countryId);
+		System.out.println("Number of States in India is " + this.noOfStates);
+		System.out.println("Prime Minister in India is " + this.primeMinister);
+		System.out.println("Population in India is " + this.population);
+	}
 }
