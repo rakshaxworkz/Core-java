@@ -1,0 +1,126 @@
+1)Explain
+i)Public static void main(String args[])
+	Public - is access specifier where JVM can easily accesss the main
+	static - is non access specifier where the copy or the instance is not created.
+	void - is the return type - with no return type
+	main - is the name of the method
+	(String args[]) - it is a parameter with arguement.
+
+ii)Class and Object
+	class - Class is a blueprint or template which has state and behavior, state refers to the variables , behavior refers to the methods.
+	Object - Object is a instance or copy of class
+
+iii)JVM,JRE,JDK
+	JVM : Which stands for Java Virtual Machine
+ 	It is a component which provides run time environment to run or execute the bytecode or javacode.
+
+	JRE : Which stands for Java Run time Environment
+	It is the combination of JVM and set of libraries
+	It is the software package that provides everything the user needs to execute the javacode.
+
+	JDK : Which stands for Java Development Kit
+	It is the component that is fully featured tools to compile and execute the java code.
+	It is the combination of JRE + development tools(such as compiler, debugger, Javadoc).
+
+2)Explain Constructor and its types?
+
+	Constructor - Constructor is a special type of method with the same name as  class with no return type.
+	Types of constructor:-
+	1)Default constructor :- Constructor with no parameter
+	2)Parameterized constructor :- Constructor with parameter 
+
+3)Difference between this keyword and this()?
+
+	this keyword which refers to the same class variables where this() is defined in the first line of constructor which is used to invoke another 	constructor in the same class where we have to provide parameter. 
+
+4)Why main method is static and explain the types?
+
+	Main method is static because without creating any instance it has to be invoked by JVM
+	
+	Types of methods:-
+	1)static method
+	2)Non-static method
+
+5)What do you know about Java class loading? Explain Java class loaders?
+	Java code is compiled into the byte code when compiler compiles , and JVM executes the bytecode by executing byte code written in class file , Class 	Loaders is responsible for loading the class files from file system.
+	
+6)Why we create reverse domain in package?
+	For the purpose of readability and industrial standard.
+
+7)input: [12,3,2,45,6,7,6]
+
+	class Array{
+		public static void main(String args[]){
+			int array[] = { 12 , 3, 2 , 45 , 6 , 7 , 6};
+			for(int i =0 ; i<array.length ; i++){
+				int lengthArray[] = array.length;
+				System.out.println(lengthArray);
+			} 
+		}
+	}
+
+8)Can we use instance variable inside the static method?
+
+	No, Instance variable should be declared outside the method but inside the class, Because instance variable which can create copies , but static 	keyword is not allowed to create instances so we cannot use instance variable inside the static method.
+
+9)Explain Polymorphism with example?
+
+	Polymorphism refers to the  object behaving differently at given instance of time, It is achieved through the annotation @Override, which means the 	child is not happy with the parent method structure it overrides the same method but implement in its own way.
+	It can be done by 
+
+	Parent ref = new Child();
+
+	Example for polymorphism?
+	Class Engineer{
+		public void solveProblems(){
+			System.out.println("Engineers solve the complex problems");
+	}
+	@Override
+	Class CsEngineer extends Engineer{
+		public void solveProblems(){
+			System.out.println("CS Engineers solve the complex problems");
+	}
+	}
+	}
+
+	Class EngineerRunner{
+		public static void main(String args[]){
+			Engineer engineer = new CsEngineer();
+			CsEngineer.solveProblems();
+	}
+	}
+
+10)Explain Inheritance with example?
+
+	Inheritance - it is the process of acquiring the properties of one class to another class.
+			Parent to child
+			Super to sub
+			Base to derived
+	Example:- 
+	To use inheritance we have to use the keyword extends which will acquire the properties of parent class.
+
+	Class Engineer{
+		public void solveProblems(){
+			System.out.println("Engineers solve the complex problems");
+	}
+	@Override
+	Class CsEngineer extends Engineer{
+		
+	}
+	}
+	}
+
+	Class EngineerRunner{
+		public static void main(String args[]){
+			Engineer engineer = new Engineer();
+			CsEngineer csengineer = new CsEngineer();
+			CsEngineer.solveProblems();
+	}
+	}
+
+ 
+	
+	
+
+
+	
